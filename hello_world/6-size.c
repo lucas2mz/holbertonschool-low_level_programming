@@ -1,9 +1,13 @@
 #include <stdio.h>
 
-/*
- * Description: 'the program's description'
+/**
+ * main - Entry point of the program
+ *
+ * This function prints the size of various data types
+ * in bytes using the sizeof operator.
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
