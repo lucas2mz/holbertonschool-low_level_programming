@@ -15,7 +15,7 @@ or if is 0.
 
 if (last digit > 5)----> printf(is greater than 5)
 if (last digit < 6 && last digit != 0)----> printf(is less than 6 and not 0)
-else printf(is 0)---->
+else printf(is 0)
 
 Task 2
 
