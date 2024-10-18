@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	int i, a;
+	int a;
 
 	a = 97;
 	char alph = a;
