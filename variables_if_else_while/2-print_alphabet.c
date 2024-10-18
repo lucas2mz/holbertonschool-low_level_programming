@@ -4,9 +4,9 @@
 int main(void)
 {
 	int a;
+	char alph = a;
 
 	a = 97;
-	char alph = a;
 
 	while (a < 123)
 {
