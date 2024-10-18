@@ -1,18 +1,22 @@
 #include <stdio.h>
 #include <string.h>
-
+/**
+ * main - Entry point of the program
+ *
+ * This function prints the alphabet
+ *
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int a;
-	char alph = a;
+	char alph = 'a';
 
-	a = 97;
-
-	while (a < 123)
+	while (alph <= 'z')
 {
 	putchar(alph);
-	a = a + 1;
 	alph = alph + 1;
 }
+	putchar('\n');
 	return (0);
 }
