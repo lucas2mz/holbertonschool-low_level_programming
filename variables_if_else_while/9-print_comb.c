@@ -2,25 +2,23 @@
 /**
  * main - Entry point of the program
  *
- * This function prints letters and numbers
+ * This function prints numbers
  *
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alph = 'a';
-	int num = 0;
+	int num;
 
-	while (num < 10)
+	for (num = 0; num < 10; num++)
 {
 	putchar(num + '0');
-	num++;
-}
-	while (alph <= 'f')
+	if (num != 9)
 {
-	putchar(alph);
-	alph++;
+	putchar(',');
+	putchar(' ');
+}
 }
 	putchar('\n');
 	return (0);
