@@ -1,22 +1,21 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * main - Entry point of the program
  *
- * This function prints numbers in base 10
+ * This function prints the tebahpla
  *
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num;
+	char alph = 'z';
 
-	num = 0;
-
-	while (num < 10)
+	while (alph >= 'a')
 {
-	putchar(num + '0');
-	num++;
+	putchar(alph);
+	alph = alph - 1;
 }
 	putchar('\n');
 	return (0);
