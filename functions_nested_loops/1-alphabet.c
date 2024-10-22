@@ -1,14 +1,21 @@
+#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 /**
  * main - Entry point of the program
  *
- * This function print the alphabet
+ * This function prints the alphabet
  *
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet();
-	return (0);
+	char alph;
+
+	for (alph = 'a'; alph <= 'z'; alph++)
+{
+	_putchar(alph);
+}
+	_putchar('\n');	
 }
