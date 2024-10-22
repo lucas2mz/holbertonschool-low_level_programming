@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main - Entry point of the program
+ * print_alphabet - Entry point of the program
  *
  * This function prints the alphabet
  *
@@ -17,5 +17,5 @@ void print_alphabet(void)
 {
 	_putchar(alph);
 }
-	_putchar('\n');	
+	_putchar('\n');
 }
