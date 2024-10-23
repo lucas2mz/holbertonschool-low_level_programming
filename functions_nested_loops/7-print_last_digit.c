@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 /**
  * print_last_digit - Entry point of the program
  *
@@ -15,5 +18,7 @@ int print_last_digit(int d)
 
 	ld = d % 10;
 
+	char last = ld + '0';
+	write(1, %last, 1);
 	return (ld);
 }
