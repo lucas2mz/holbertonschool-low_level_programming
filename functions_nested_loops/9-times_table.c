@@ -2,18 +2,18 @@
 /**
  * times_table - Entry point of the program
  *
- * times_table - return the tables
+ * times_table - Prints the 9x9 multiplication table
  *
  */
 void times_table(void)
 {
 	int i, j, resultado;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar('0'); /* primera linea de 0 */
+		_putchar('0'); /* imprime el primer 0 para la primera columna en cada fila */
 
-		for (j = 0; j < 10; j++) /* imprime las , y los espacios mientras sube j*/
+		for (j = 1; j <= 9; j++) /* del 1 al 9 para multiplicar con i */
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -22,8 +22,8 @@ void times_table(void)
 
 	if (resultado <= 9)
 {
-	_putchar('0' + resultado); /* imprime las multiplicaciones entre 
-					numeros <= a 9 */
+	_putchar(' '); /* imprime otro espacio para alinear */
+	_putchar('0' + resultado); /* imprime el resultado de mutliplicaciones de una unidad */
 }
 
 	else /* entra si el resultado es mas grande q 9 (tabla ASCII) */
