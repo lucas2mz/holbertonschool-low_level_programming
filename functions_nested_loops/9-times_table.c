@@ -23,7 +23,7 @@ void times_table(void)
 	if (resultado <= 9)
 {
 	_putchar(' '); /* imprime otro espacio para alinear */
-	_putchar('0' + resultado); /* imprime el resultado de mutliplicaciones de una unidad */
+	_putchar('0' + resultado);
 }
 
 	else /* entra si el resultado es mas grande q 9 (tabla ASCII) */
@@ -36,9 +36,11 @@ void times_table(void)
 }
 }
 
-/* EJEMPLO PARA RESULTADO = 81
- * i y j = 9
- * resultado = 9 * 9 = 81
- * 81 / 10 = 8,1 (REDONDEA A 8)
- * 81 % 10 = 1
- * IMPRIME EN ORDEN Y FORMA EL 81*/
+/*
+ * EJEMPLO PARA RESULTADO = 81
+ * i, j = 9
+ * resultado = i * j = 81
+ * resultado / 10 = 8,1 (redondea)
+ * resultado % 10 = 1
+ * imprime a los dos y forma 81
+ */
