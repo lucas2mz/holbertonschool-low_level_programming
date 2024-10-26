@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include "main.h"
-
+/**
+ * print_to_98 - Prints to 98
+ * @n: the first number
+ *
+ *
+ * This function takes a random number and
+ * goes to 98
+ *
+ */
 void print_to_98(int n)
 {
 	int f;
