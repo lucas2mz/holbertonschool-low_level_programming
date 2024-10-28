@@ -4,7 +4,11 @@
  *
  * mul - Multiplies two integers
  *
- * Return: resultado*/
+ * @a: 1st var
+ * @b: 2nd var
+ *
+ * Return: resultado
+ */
 int mul(int a, int b)
 {
 	int resultado;
