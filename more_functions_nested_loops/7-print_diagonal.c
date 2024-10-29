@@ -1,5 +1,11 @@
 #include "main.h"
-#include <stdio.h>
+/**
+ * print_diagonal - entry of the proyect
+ *
+ * print_diagonal - prints diagonals
+ *
+ * @n: var to be chcked
+ */
 void print_diagonal(int n)
 {
 	int i, x;
