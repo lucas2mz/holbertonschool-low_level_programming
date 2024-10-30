@@ -37,10 +37,18 @@ void fizz_buzz_test(int n)
 	printf("\n");
 }
 
+/**
+ * main - Entry point of the program.
+ *
+ * Return: Always returns 0
+ */
+
 int main(void)
 {
 	int k;
+
 	k = 1;
+
 	fizz_buzz_test(k);
 	return (0);
 }
