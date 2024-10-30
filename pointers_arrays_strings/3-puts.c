@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * _puts - Entry of the program
+ * _puts - Print strings
+ * @str: Var to be checked
+ */
 void _puts(char *str)
 {
 	int l;
