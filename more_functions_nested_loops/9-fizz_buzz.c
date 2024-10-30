@@ -9,7 +9,7 @@
  */
 void fizz_buzz_test(int n)
 {
-	int i, x;
+	int i;
 
 	for (i = n; i <= 100; i++)
 	{
