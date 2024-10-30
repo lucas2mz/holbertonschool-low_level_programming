@@ -32,3 +32,11 @@ void fizz_buzz_test(int n)
 }
 	printf("\n");
 }
+
+int main(void)
+{
+	int k;
+	k = 1;
+	fizz_buzz_test(k);
+	return (0);
+}
