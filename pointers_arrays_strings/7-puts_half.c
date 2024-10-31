@@ -10,17 +10,17 @@ void puts_half(char *str)
 	{
 		len++;
 	}
-	half_len = len / 2;
 	if (len % 2 == 0)
-	{
+{
+	half_len = len / 2;
+}
+	else
+{
+	half_len = (len - 1) / 2;
+}
 	for (i = half_len; i < len; i++)
 	{
 		_putchar(str[i]);
-	}
-	}
-	else
-	{
-		_putchar(str[half_len]);
 	}
 	_putchar('\n');
 }
