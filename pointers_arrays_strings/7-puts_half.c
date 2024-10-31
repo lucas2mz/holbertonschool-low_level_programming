@@ -1,5 +1,11 @@
 #include "main.h"
-
+/**
+ * puts_half - Entry of the program
+ *
+ * puts_half - Prints the half of a string
+ *
+ * @str: Var to be checked
+ */
 void puts_half(char *str)
 {
 	int len, half_len, i;
