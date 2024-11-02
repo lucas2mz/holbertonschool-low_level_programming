@@ -1,5 +1,12 @@
 #include "main.h"
-
+/**
+ * _strncat - entry of the program
+ * _strncat - kfd
+ * @dest:var to be checked
+ * @src:var to be checked
+ * @n:var to be checked   
+ * Return: dest
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 	int len, i;
