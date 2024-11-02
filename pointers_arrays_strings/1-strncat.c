@@ -4,7 +4,7 @@
  * _strncat - kfd
  * @dest:var to be checked
  * @src:var to be checked
- * @n:var to be checked   
+ * @n:var to be checked
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
