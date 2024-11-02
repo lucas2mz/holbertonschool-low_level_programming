@@ -4,27 +4,20 @@
  * _strcmp - Compares Strings
  * @s1: first string
  * @s2: second string
- * Return: 15 if is positive, -15 if is negative, 0 if is equal
+ * Return: j
  */
 int _strcmp(char *s1, char *s2)
 {
 	int i, j;
 
-	for (i = 0; s1[i] != '\0'; i++)
+	while (s1[i] != '\0' && s2[i] != '\0')
 	{
+		if (s1[i] != s2[i])
+		{
+			j = s1[i] - s2[i];
+			return (j);
+		}
+		i++;
 	}
-		for (j = 0; s2[j] != '\0'; j++)
-		{
-		}
-
-		if (i > j)
-		{
-			return (15);
-		}
-		else if (i < j)
-		{
-			return (-15);
-		}
-		else
-		return (0);
+	return (s1[i] - s2[i]);
 }
