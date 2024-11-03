@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 /**
  * rev_string - Entry of the program
  * rev_string - Print a rev of a string
