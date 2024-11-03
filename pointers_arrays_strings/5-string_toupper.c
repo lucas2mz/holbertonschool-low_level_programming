@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * string_toupper - entry of the program
+ * string_toupper - Change an lowercase to uppercase
+ * @a: string to be checked
+ * Return: string with uppercase
+ */
 char *string_toupper(char *a)
 {
 	int i;
