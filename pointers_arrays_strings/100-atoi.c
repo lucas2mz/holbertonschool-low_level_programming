@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * _atoi - entry of the program
+ * _atoi - atoi
+ * @s: string
+ * Return: aux2 or 0
+ */
 int _atoi(char *s)
 {
 	int i, len, aux, aux2;
