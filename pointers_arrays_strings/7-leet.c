@@ -8,10 +8,9 @@
 char *leet(char *str)
 {
 	int i, j;
-	char aux_num[5], aux_letras[10]
 
-	aux_num[5] = {'4', '3', '0', '7', '1'}
-	aux_letras[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	char aux_num[] = "43071";
+	char aux_letras[] = "aAeEoOtTlL";
 
 
 
