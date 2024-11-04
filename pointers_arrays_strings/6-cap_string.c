@@ -42,6 +42,10 @@ char *cap_string(char *str)
 			{
 				str[i] = str[i] - 32;
 			}
+			else if (str[i - 1] == 2)
+			{
+				str[i] = str[i] - 32;
+			}
 		}
 }
 	return (str);
