@@ -1,5 +1,11 @@
 #include "main.h"
-#include <stdio.h>
+/**
+ * _strspn - Entry of the program
+ * _strspn - asjfnjkdf
+ * @s: Array to be checked
+ * @accept: var to be checked
+ * Return: aux
+ */
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j, aux;
@@ -29,6 +35,6 @@ unsigned int _strspn(char *s, char *accept)
 		break;
 	}
 	}
-	
+
 	return (aux);
 }
