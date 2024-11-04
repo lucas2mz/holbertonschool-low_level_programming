@@ -3,30 +3,32 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j, aux;
+	int ent;
 
 	aux = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
+		ent = 0;
+
 		for (j = 0; accept[j] != '\0'; j++)
 		{
 			if (s[i] == accept[j])
 			{
-				printf("Conto\n");
-				aux++;
-				break;
-			}
-			if (s[i] != accept[j])
-			{
-				printf("no entro\n");
-				break;
-			}
-			if (accept[j] == '\0')
-			{
-				printf("nulo\n");
+				ent = 1;
 				break;
 			}
 		}
+
+	if (ent)
+	{
+		aux++;
 	}
+	else
+	{
+		break;
+	}
+	}
+	
 	return (aux);
 }
