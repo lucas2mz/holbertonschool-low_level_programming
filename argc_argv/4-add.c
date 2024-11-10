@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ * main - Adds positive numbers passed as arguments
+ * @argc: Argument count
+ * @argv: Argument vector
+ * Return: 0 on success, 1 on error
+ */
 int main(int argc, char *argv[])
 {
 	int i, j, sum;
@@ -20,7 +25,7 @@ int main(int argc, char *argv[])
 		if (argc > 1)
 		{
 		printf("%d\n", sum);
-		} 
+		}
 		else
 		{
 		printf("0\n");
