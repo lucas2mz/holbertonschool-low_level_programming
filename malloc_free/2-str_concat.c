@@ -10,10 +10,12 @@
 char *str_concat(char *s1, char *s2)
 {
 	int len, len2, j, i;
-	char *aux = "";
+	char *aux;
 
 	len = 0;
 	len2 = 0;
+	i = 0;
+	j = 0;
 
 	if (s1 == NULL)
 	{
@@ -31,11 +33,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		len2++;
 	}
-	aux = malloc((len + len + 1) * sizeof(char));
+	aux = malloc((len + len2 + 1) * sizeof(char));
 	if (aux == NULL)
-	{
 		return (NULL);
-	}
 	while (s1[i] != '\0')
 	{
 		aux[i] = s1[i];
