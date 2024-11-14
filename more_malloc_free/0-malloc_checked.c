@@ -2,7 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
-
+/**
+ * malloc_checked - Entry of the program
+ * @b: Malloc size
+ * Return: Aux
+ */
 void *malloc_checked(unsigned int b)
 {
 	void *aux;
