@@ -9,12 +9,11 @@
  * Return: NULL or aux
  */
 dog_t *new_dog(char *name, float age, char *owner)
-{ 
+{
 	dog_t *aux = malloc(sizeof(dog_t));
 
 	if (aux == NULL)
 	{
-		free(aux);
 		return (NULL);
 	}
 
