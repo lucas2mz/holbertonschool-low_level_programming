@@ -13,6 +13,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 	int i, namelen, ownlen;
 	dog_t *aux;
 
+	namelen = 0;
+	ownlen = 0;
+
 	while (name[namelen] != '\0')
 	{
 		namelen++;
