@@ -1,14 +1,20 @@
 #include <stdio.h>
 #include "3-calc.h"
 #include <stdlib.h>
-int main (int argc, char *argv[])
+/**
+ * main - Entry of the program
+ * @argc: amount of arguments
+ * @argv: variables
+ * Return: 0
+ */
+int main(int argc, char *argv[])
 {
 	int a, b;
 	int (*resultado)(int, int);
 
 	if (argc != 4)
 	{
-		printf("Error fuera de rango\n");
+		printf("Error\n");
 		exit(98);
 	}
 	a = atoi(argv[1]);
@@ -17,13 +23,13 @@ int main (int argc, char *argv[])
 
 	if (!resultado)
 	{
-		printf("Error no operante\n");
+		printf("Error\n");
 		exit(99);
 	}
 
 	if ((argv[2][0] == '/' || argv[2][0] == '%') && b == 0)
 	{
-		printf("Error no podes dividir entre 0\n");
+		printf("Error\n");
 		exit(100);
 	}
 
