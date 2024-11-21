@@ -8,7 +8,7 @@ int main (int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		printf("Error\n");
+		printf("Error fuera de rango\n");
 		exit(98);
 	}
 	a = atoi(argv[1]);
@@ -17,13 +17,13 @@ int main (int argc, char *argv[])
 
 	if (!resultado)
 	{
-		printf("Error\n");
+		printf("Error no operante\n");
 		exit(99);
 	}
 
 	if ((argv[2][0] == '/' || argv[2][0] == '%') && b == 0)
 	{
-		printf("Error\n");
+		printf("Error no podes dividir entre 0\n");
 		exit(100);
 	}
 

@@ -15,7 +15,7 @@ op_t ops[] = {
 	
 	i = 0;
 
-	while (ops[i].op != NULL && s[i] != '\0' && s[0] != '\0')
+	while (ops[i].op && s && s[0] != '\0')
 	{
 		if (s[0] == ops[i].op[0])
 		{
